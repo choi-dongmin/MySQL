@@ -1,2 +1,1 @@
 # MySQL-Practice
-MySQL
