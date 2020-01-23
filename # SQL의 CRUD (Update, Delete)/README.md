@@ -42,7 +42,7 @@ update Topic set Description='Postgre SQL...' where Id=4;
 ## Delete
 
 이번엔는 수정이 아닌 삭제를 배워보자 CRUD중 가장 마지막인 'Delete' 이다.
-
+```
 +----+------------+------------------+---------------------+--------+--------------------------+
 | Id | Title      | Description      | Created             | Author | Profile                  |
 +----+------------+------------------+---------------------+--------+--------------------------+
@@ -52,7 +52,7 @@ update Topic set Description='Postgre SQL...' where Id=4;
 |  4 | PostgreSQL | Postare SQL...   | 2020-01-21 19:20:12 | Teaho  | Data Scintist, Developer |
 |  5 | MongoDB    | MongoDB is...    | 2020-01-21 19:21:33 | me     | Developer                |
 +----+------------+------------------+---------------------+--------+--------------------------+
-
+```
 이전에서 수정까지 마친 Topic DB 이다. 여기서 우리는 Id 5번째 MongoDB를 삭제해볼 것이다.
 
 삭제 하는 문법은 "Delete From TableName where Primary key = 00;" 으로 삭제할수 있다 그럼  Topic Table 에서 적용해보자.
@@ -65,7 +65,7 @@ delete from Topic where Id=5;
 
 이렇게 Delete 값을 적용하고 난 후의 Topic 테이블을 보면 (Select * from Topic)
 
-
+```
 +----+------------+------------------+---------------------+--------+--------------------------+
 | Id | Title      | Description      | Created             | Author | Profile                  |
 +----+------------+------------------+---------------------+--------+--------------------------+
@@ -74,7 +74,7 @@ delete from Topic where Id=5;
 |  3 | SQL Server | SQL Server is... | 2020-01-21 19:17:47 | Dura   | Database Administrator   |
 |  4 | PostgreSQL | Postare SQL...   | 2020-01-21 19:20:12 | Teaho  | Data Scintist, Developer |
 +----+------------+------------------+---------------------+--------+--------------------------+
-
+```
 이런식으로 5번쨰 Id가 사라진것을 볼수가 있다.
 
 
