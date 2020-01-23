@@ -82,14 +82,16 @@ delete from Topic where Id=5;
 
 CRUD : Create, Read, Update, Delete
 
-\.\.
+
+
+
 Updata : 기존에 있던 Column 을 선택하여 내가 원하는 새로운 정보로 대체하여 수정하는것. 문법적으로는 
 
 "update TableName set ColumnName='새로 넣고싶은 문장' where primary key=00" 으로 사용된다.
 
 단, where 구문을 작성하지 않으면 모든 해당 Column의 내용이 수정이 되니 항상 조심해야 한다.
 
-
+\e
 
 Delete : 기존에 있던 DB 혹은 Column 을 선택해 그것을 완전히 삭제시키는 명령이다 
 
