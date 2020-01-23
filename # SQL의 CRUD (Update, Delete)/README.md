@@ -90,8 +90,7 @@ Updata : 기존에 있던 Column 을 선택하여 내가 원하는 새로운 정
 "update TableName set ColumnName='새로 넣고싶은 문장' where primary key=00" 으로 사용된다.
 
 단, where 구문을 작성하지 않으면 모든 해당 Column의 내용이 수정이 되니 항상 조심해야 한다.
-
-/e
+                                                                                                                                                                                                                                                              
 
 Delete : 기존에 있던 DB 혹은 Column 을 선택해 그것을 완전히 삭제시키는 명령이다 
 
@@ -99,12 +98,14 @@ Delete : 기존에 있던 DB 혹은 Column 을 선택해 그것을 완전히 삭
 
 단, Where 구문을 작성하지 않으면 해당 Table 이 통쨰로 사라지기 때문에 각별히 주의해야한다.
 
+                                                                                                                                 
 
-
+               
 Select * From (TableName) : (TableName) 그안에 작성한 Table을 선택하여 모든Column(*)
 을 출력하도록 하는 명령
 
 단, 모든 Column 이 아닌 보고 싶은 부분이 있다면 * 대신 해당 ColumnName을 입력한다.(복수가능)
+                                                                                                                                 
 
 ## 참고
 
