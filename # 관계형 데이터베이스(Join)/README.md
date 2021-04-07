@@ -43,7 +43,7 @@
 위에서 말한것 같이 데이터 중 Author, Profile 을 떼어내어 Author Table, 남은 데이터들로 Topic 테이블을 만들면
 
 
-topic
+topic(Posting category : 사용자가 입력한 데이터)
 ```
 +----+-------------+-------------------+---------------------+-----------+
 | id | title       | description       | created             | author_id |
@@ -56,7 +56,7 @@ topic
 +----+-------------+-------------------+---------------------+-----------+
 ```
 
-author
+author (personal info category : 사용자의 개인정보 데이터)
 ```
 +----+-------+--------------------------+
 | id | name  | profile                  |
